@@ -1,0 +1,19 @@
+{
+    "name": "hoangnamitc/mvc",
+    "description": "MVC Framework",
+    "authors": [
+        {
+            "name": "hoangnamitc",
+            "email": "lehoangnam14@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "symfony/var-dumper": "^5.1",
+        "eftec/bladeone": "^3.47"
+    }
+}
