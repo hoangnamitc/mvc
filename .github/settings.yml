@@ -1,0 +1,30 @@
+repository:
+  # A URL with more information about the repository
+  homepage: https://thichweb.com
+
+  # Either `true` to make the repository private, or `false` to make it public.
+  private: true
+
+  # Updates the default branch for this repository.
+  default_branch: master
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: bug (lỗi)
+    color: fc2929
+  - name: enhancement (cải tiến)
+    color: 84b6eb
+  - name: duplicate (lặp)
+    color: cccccc
+  - name: question (hỏi)
+    color: cc317c
+  - name: future (tương lai)
+    color: 128A0C
+  - name: idea (ý tưởng)
+    color: b3f542
+  - name: invalid (ko hợp lệ)
+    color: e6e6e6
+  - name: wontfix (không sửa)
+    color: ffffff
+  - name: needs more info (chưa rõ)
+    color: 1ab3b3
