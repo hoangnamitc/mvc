@@ -15,8 +15,6 @@ $app->router->get('/', function() {
 	return 'THIS IS HOMEPAGE';
 });
 
-$app->router->get('/contact', function() {
-	return 'CONTACT';
-});
+$app->router->get('/contact', 'contact');
 
 $app->run();
